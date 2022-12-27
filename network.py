@@ -49,7 +49,7 @@ class JordanNetwork:
             print("Error = ", error)
             self.error = error
         print(self.iteration_threshold, 'iters')
-        self.predict()
+        self.predict_next_seq_val()
 
     def predict_next_seq_val(self):
         self.teardown_context_neurons()
