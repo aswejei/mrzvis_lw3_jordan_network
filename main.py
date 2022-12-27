@@ -1,5 +1,5 @@
-from utils import load_from_file, activate
-from NN import JordanNetwork
+from utilities import load_from_file, activate
+from network import JordanNetwork
 
 if __name__ == "__main__":
     '''Network currently has only fibonacci sequence weights trained, so if you would like to predict some other 

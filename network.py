@@ -2,7 +2,7 @@ from typing import NamedTuple
 
 import numpy as np
 
-from utils import activation_function_derivative, choose
+from utilities import activation_function_derivative, choose
 
 
 class JordanNetwork:
